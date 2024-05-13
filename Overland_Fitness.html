@@ -36,79 +36,35 @@
             <h1>Gallery</h1>
             <div>
 
-                <!-- Photo Container 1 -->
-                <div>
-                    <div> 
-                        <img src="" alt="">
+                <!--Image Grid-->
+                <div class="row">
+                    <div class="column">
+                      <img src="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
                     </div>
-                </div>
-                <!-- End Photo Container 1 -->
-
-                <!-- Photo Container 2 -->
-                <div>
-                    <div>
-                        <img src="" alt="">
+                    <div class="column">
+                      <img src="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
                     </div>
-                </div>
-                <!-- End Photo Container 2 -->
-
-                <!-- Photo Container 3 -->
-                <div>
-                    <div>
-                        <img src="" alt="">
+                    <div class="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
+                      <img src="">
                     </div>
-                </div>
-                <!-- End Photo Container 3 -->
-
-                <!-- Photo Container 4 -->
-                <div>
-                    <div>
-                        <img src="" alt="">
-                        <div>
-                    </div>
-                </div>
-                <!-- End Photo Container 4 -->
-
-                <!-- Photo Container 5 -->
-                <div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <!-- End Photo Container 5 -->
-
-                <!-- Photo Container 6 -->
-                <div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <!-- End Photo Container 6 -->
-
-                <!-- Photo Container 7 -->
-                <div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <!-- End Photo Container 7 -->
-
-                <!-- Photo Container 8 -->
-                <div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <!-- End Photo Container 8 -->
-
-                <!-- Photo Container 9 -->
-                <div>
-                    <div>
-                        <img src="" alt="">
-                    </div>
-                </div>
-                <!-- End Photo Container 9-->
-
+                  </div>
 
             </div>
         </div>
@@ -126,20 +82,27 @@
                     <p>
                         Please provide us with your basic contact information.
                     </p>
-                    <div>
-                        <form action="" method="post">
-                            <input class="RSVP" type="text" value="First Name">
-                            <input type="text" class="RSVP" value="Last Name">
-                            <input type="text" class="RSVP" value="Email Address">
-                            <input type="text" class="RSVP" value="Phone Number">
-                            <div class=""form-spacer>
-                                <label class="terms">Terms and Conditions</label>
-                            </div>
-                            <div>
-                                <input type="submit" value="Submit">
-                            </div>
+                    <div class="container">
+                        <form action="action_page.php">
+                      
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      
+                          <label for="lname">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      
+                          <label for="country">Country</label>
+                          <select id="country" name="country">
+                            <option value="usa">USA</option>
+                          </select>
+                      
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                      
                         </form>
-                    </div>
+                      </div>
                 </div>
             </div>
         </div>
